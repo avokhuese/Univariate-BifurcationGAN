@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "ECG5000",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_ECG5000_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_ECG5000_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:32:02.724085",
+  "final_metrics": {
+    "wasserstein_distance": 0.10252370685436085,
+    "jensen_shannon_divergence": 0.1266305121352404,
+    "ks_statistic": 0.1338,
+    "ks_pvalue": 2.0581042059389873e-39,
+    "fid_score": 0.2649434980207593,
+    "precision": 0.9533333333333334,
+    "recall": 0.9613333333333334,
+    "f1_score": 0.9573166152414987,
+    "mmd_rbf": 0.06157863512635231,
+    "acf_similarity": 0.9987373187088475,
+    "psd_similarity": 0.9694748974748928,
+    "correlation_structure": 0.804692581572687,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9965710329228454,
+    "overall_quality": 0.6126187242525413
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": -0.04913197085261345,
+    "sample_std": 0.3983295261859894,
+    "sample_min": -1.5992965698242188,
+    "sample_max": 1.2638038396835327
+  }
+}

@@ -1,0 +1,627 @@
+{
+  "model": "diffusion_ts",
+  "total_datasets": 15,
+  "evaluation_time": "2026-05-29T19:40:29.874084",
+  "config": {
+    "seq_len": 100,
+    "latent_dim": 128,
+    "batch_size": 64
+  },
+  "results": [
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "CBF",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_CBF_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_CBF_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:21:38.812648",
+      "final_metrics": {
+        "wasserstein_distance": 0.06257168266372842,
+        "jensen_shannon_divergence": 0.11255131650041016,
+        "ks_statistic": 0.0944,
+        "ks_pvalue": 8.382200101279754e-20,
+        "fid_score": 0.3822914693582622,
+        "precision": 1.0,
+        "recall": 0.9785714285714285,
+        "f1_score": 0.9891696700908391,
+        "mmd_rbf": 0.0,
+        "acf_similarity": 0.9890200043732215,
+        "psd_similarity": 0.8713596995352125,
+        "correlation_structure": 0.9556298662750276,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9990279460922877,
+        "overall_quality": 0.614980025369785
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.01318674348294735,
+        "sample_std": 0.3482745289802551,
+        "sample_min": -0.8703294992446899,
+        "sample_max": 0.9182597398757935
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "Fungi",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_Fungi_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_Fungi_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:22:17.188877",
+      "final_metrics": {
+        "wasserstein_distance": 0.05698748893196467,
+        "jensen_shannon_divergence": 0.5566043966036637,
+        "ks_statistic": 0.25625,
+        "ks_pvalue": 1.0808039732524397e-92,
+        "fid_score": 2.1813402829679767,
+        "precision": 0.96875,
+        "recall": 0.96875,
+        "f1_score": 0.968749995,
+        "mmd_rbf": 0.0,
+        "acf_similarity": 0.9872479337216663,
+        "psd_similarity": 0.9771274814690233,
+        "correlation_structure": 0.6812880292418597,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9964107105706239,
+        "overall_quality": 0.6432284398227379
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.1700744330883026,
+        "sample_std": 0.3466796875,
+        "sample_min": -0.21598418056964874,
+        "sample_max": 2.0307610034942627
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "EOGHorizonSignal",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_EOGHorizonSignal_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_EOGHorizonSignal_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:23:07.301082",
+      "final_metrics": {
+        "wasserstein_distance": 0.04968650976580248,
+        "jensen_shannon_divergence": 0.6569003348460876,
+        "ks_statistic": 0.0894,
+        "ks_pvalue": 8.402156467204395e-18,
+        "fid_score": 0.0,
+        "precision": 0.9733333333333334,
+        "recall": 0.9733333333333334,
+        "f1_score": 0.9733333283333334,
+        "mmd_rbf": 0.042186200618743896,
+        "acf_similarity": 0.9985792938557172,
+        "psd_similarity": 0.983262699791049,
+        "correlation_structure": 0.7503211824757516,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9990881489989492,
+        "overall_quality": 0.610432340042066
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.13749448955059052,
+        "sample_std": 0.31836411356925964,
+        "sample_min": -0.6743545532226562,
+        "sample_max": 0.3875737488269806
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "SemgHandMovement",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_SemgHandMovement_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_SemgHandMovement_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:23:56.865938",
+      "final_metrics": {
+        "wasserstein_distance": 0.07089402026349202,
+        "jensen_shannon_divergence": 0.7611518917015959,
+        "ks_statistic": 0.1048,
+        "ks_pvalue": 2.5716406181296373e-24,
+        "fid_score": 0.0,
+        "precision": 0.9733333333333334,
+        "recall": 0.96,
+        "f1_score": 0.9666206846554103,
+        "mmd_rbf": 0.0,
+        "acf_similarity": 0.9986916580209858,
+        "psd_similarity": 0.9940870890978921,
+        "correlation_structure": 0.9085501007136995,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9987098346574066,
+        "overall_quality": 0.6155155412644238
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.10809144377708435,
+        "sample_std": 0.2784276604652405,
+        "sample_min": -0.6615557074546814,
+        "sample_max": 0.42323046922683716
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "ScreenType",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_ScreenType_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_ScreenType_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:24:53.661594",
+      "final_metrics": {
+        "wasserstein_distance": 0.2923686690397332,
+        "jensen_shannon_divergence": 1.1512377264614997,
+        "ks_statistic": 0.186,
+        "ks_pvalue": 5.560848885337776e-76,
+        "fid_score": 63.864101942168624,
+        "precision": 0.9911504424778761,
+        "recall": 0.9557522123893806,
+        "f1_score": 0.9731295203435678,
+        "mmd_rbf": 0.1848168671131134,
+        "acf_similarity": 0.7697613419417267,
+        "psd_similarity": 0.7898091354341014,
+        "correlation_structure": 0.8918471615324123,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9970382130926658,
+        "overall_quality": 0.6736643017746311
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.27286961674690247,
+        "sample_std": 0.6471728682518005,
+        "sample_min": -0.8353506326675415,
+        "sample_max": 2.3592958450317383
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "StrawBerry",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_StrawBerry_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_StrawBerry_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:25:45.197333",
+      "final_metrics": {
+        "wasserstein_distance": 0.05533251864298921,
+        "jensen_shannon_divergence": 0.12699628955749848,
+        "ks_statistic": 0.1032,
+        "ks_pvalue": 1.365921975432331e-23,
+        "fid_score": 0.0,
+        "precision": 0.9733333333333334,
+        "recall": 0.9733333333333334,
+        "f1_score": 0.9733333283333334,
+        "mmd_rbf": 0.0,
+        "acf_similarity": 0.9982213081351543,
+        "psd_similarity": 0.9804688521733711,
+        "correlation_structure": 0.8810785974482591,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9999391221696226,
+        "overall_quality": 0.6004642003421748
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.09316965937614441,
+        "sample_std": 0.39082249999046326,
+        "sample_min": -0.7712996006011963,
+        "sample_max": 0.4975416958332062
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "GunPointAgeSpan",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_GunPointAgeSpan_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_GunPointAgeSpan_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:26:34.549597",
+      "final_metrics": {
+        "wasserstein_distance": 0.3760208156609609,
+        "jensen_shannon_divergence": 4.409241154377891,
+        "ks_statistic": 0.508,
+        "ks_pvalue": 0.0,
+        "fid_score": 1.4582804292805085,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 0.999999995,
+        "mmd_rbf": 0.3388761579990387,
+        "acf_similarity": 0.9815411030326997,
+        "psd_similarity": 0.9126382637907687,
+        "correlation_structure": 0.647097258203086,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9976487688783944,
+        "overall_quality": 0.6805757236605054
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.5158503651618958,
+        "sample_std": 0.2423436939716339,
+        "sample_min": -0.07271570712327957,
+        "sample_max": 0.8888854384422302
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "Yoga",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_Yoga_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_Yoga_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:28:57.545662",
+      "final_metrics": {
+        "wasserstein_distance": 0.10802323707637217,
+        "jensen_shannon_divergence": 0.3097661853770728,
+        "ks_statistic": 0.188,
+        "ks_pvalue": 1.2638836008062706e-77,
+        "fid_score": 0.7156078747758656,
+        "precision": 0.98989898989899,
+        "recall": 0.9656565656565657,
+        "f1_score": 0.9776275098183659,
+        "mmd_rbf": 0.06773395836353302,
+        "acf_similarity": 0.9978183790151126,
+        "psd_similarity": 0.8742282604943817,
+        "correlation_structure": 0.9795785865714877,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9964236868624178,
+        "overall_quality": 0.6334921099664448
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.04078966751694679,
+        "sample_std": 0.4249795377254486,
+        "sample_min": -0.6428204774856567,
+        "sample_max": 0.7163001894950867
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "ECG5000",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_ECG5000_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_ECG5000_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:32:02.724085",
+      "final_metrics": {
+        "wasserstein_distance": 0.10252370685436085,
+        "jensen_shannon_divergence": 0.1266305121352404,
+        "ks_statistic": 0.1338,
+        "ks_pvalue": 2.0581042059389873e-39,
+        "fid_score": 0.2649434980207593,
+        "precision": 0.9533333333333334,
+        "recall": 0.9613333333333334,
+        "f1_score": 0.9573166152414987,
+        "mmd_rbf": 0.06157863512635231,
+        "acf_similarity": 0.9987373187088475,
+        "psd_similarity": 0.9694748974748928,
+        "correlation_structure": 0.804692581572687,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9965710329228454,
+        "overall_quality": 0.6126187242525413
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.04913197085261345,
+        "sample_std": 0.3983295261859894,
+        "sample_min": -1.5992965698242188,
+        "sample_max": 1.2638038396835327
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "GestureMidAirD1",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_GestureMidAirD1_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_GestureMidAirD1_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:32:44.849386",
+      "final_metrics": {
+        "wasserstein_distance": 0.24705340475989662,
+        "jensen_shannon_divergence": 1.0182656563440884,
+        "ks_statistic": 0.3402,
+        "ks_pvalue": 8.374169093818991e-257,
+        "fid_score": 0.67212100779794,
+        "precision": 0.9807692307692307,
+        "recall": 0.9807692307692307,
+        "f1_score": 0.9807692257692308,
+        "mmd_rbf": 0.21215440332889557,
+        "acf_similarity": 0.9084787657157652,
+        "psd_similarity": 0.9572753122947616,
+        "correlation_structure": 0.8149244571079473,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9928443860349008,
+        "overall_quality": 0.6498672670636232
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.34908798336982727,
+        "sample_std": 0.3510585129261017,
+        "sample_min": -0.4750484824180603,
+        "sample_max": 1.4932917356491089
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "PigCVP",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_PigCVP_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_PigCVP_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:33:30.512530",
+      "final_metrics": {
+        "wasserstein_distance": 0.601790390371821,
+        "jensen_shannon_divergence": 2.8236020684814047,
+        "ks_statistic": 0.42375,
+        "ks_pvalue": 0.0,
+        "fid_score": 6.520109689742017,
+        "precision": 0.9583333333333334,
+        "recall": 0.9583333333333334,
+        "f1_score": 0.9583333283333335,
+        "mmd_rbf": 0.35120153427124023,
+        "acf_similarity": 0.9967204312861814,
+        "psd_similarity": 0.9235716053295268,
+        "correlation_structure": 0.6503629303230531,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9992978131579239,
+        "overall_quality": 0.6956028944099468
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.3911072313785553,
+        "sample_std": 0.8976448774337769,
+        "sample_min": -2.697690486907959,
+        "sample_max": 1.679410696029663
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "PowerCons",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_PowerCons_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_PowerCons_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:34:19.412721",
+      "final_metrics": {
+        "wasserstein_distance": 0.2705087099895146,
+        "jensen_shannon_divergence": 0.9879570646628401,
+        "ks_statistic": 0.251,
+        "ks_pvalue": 1.0871263985020604e-138,
+        "fid_score": 2.8649584771503136,
+        "precision": 0.9636363636363636,
+        "recall": 1.0,
+        "f1_score": 0.9814814764831962,
+        "mmd_rbf": 0.18594478070735931,
+        "acf_similarity": 0.9644593200300204,
+        "psd_similarity": 0.8436855129372729,
+        "correlation_structure": 0.5196931937464606,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9913943969168368,
+        "overall_quality": 0.6581314535860358
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.30823931097984314,
+        "sample_std": 0.5870382785797119,
+        "sample_min": -0.7944897413253784,
+        "sample_max": 1.8018982410430908
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "MelbournePedestrian",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_MelbournePedestrian_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_MelbournePedestrian_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:36:44.743234",
+      "final_metrics": {
+        "wasserstein_distance": 0.11650579296624908,
+        "jensen_shannon_divergence": 0.19618361013676494,
+        "ks_statistic": 0.1418,
+        "ks_pvalue": 3.130490567268594e-44,
+        "fid_score": 0.0,
+        "precision": 0.9634615384615385,
+        "recall": 0.9692307692307692,
+        "f1_score": 0.9663375380540056,
+        "mmd_rbf": 0.09192794561386108,
+        "acf_similarity": 0.9951169911342765,
+        "psd_similarity": 0.9856748854082555,
+        "correlation_structure": 0.7712210993204704,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9977314006283979,
+        "overall_quality": 0.6052961550734411
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.2912216782569885,
+        "sample_std": 0.4194848835468292,
+        "sample_min": -0.16900520026683807,
+        "sample_max": 2.1347756385803223
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "InsectEPGRegularTrain",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_InsectEPGRegularTrain_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_InsectEPGRegularTrain_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:37:31.269161",
+      "final_metrics": {
+        "wasserstein_distance": 0.09906541249564493,
+        "jensen_shannon_divergence": 8.60107796136821,
+        "ks_statistic": 0.2375,
+        "ks_pvalue": 3.956030581826782e-119,
+        "fid_score": 25.83978051378396,
+        "precision": 1.0,
+        "recall": 0.9583333333333334,
+        "f1_score": 0.9787233992575827,
+        "mmd_rbf": 0.05875222757458687,
+        "acf_similarity": 0.9529124361762458,
+        "psd_similarity": 0.8479591663966594,
+        "correlation_structure": 0.123618761385769,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9958490224672696,
+        "overall_quality": 0.66477831538384
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": 0.16156502068042755,
+        "sample_std": 0.4483228921890259,
+        "sample_min": -0.22651779651641846,
+        "sample_max": 0.7120832204818726
+      }
+    },
+    {
+      "model_type": "diffusion_ts",
+      "dataset": "FordB",
+      "run_idx": 0,
+      "checkpoint_file": "diffusion_ts_FordB_best.pth",
+      "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_FordB_best.pth",
+      "evaluation_timestamp": "2026-05-29T19:40:29.847009",
+      "final_metrics": {
+        "wasserstein_distance": 0.08441591550923958,
+        "jensen_shannon_divergence": 0.05132409263431922,
+        "ks_statistic": 0.1422,
+        "ks_pvalue": 1.7671765414641027e-44,
+        "fid_score": 0.3421816877965203,
+        "precision": 0.9745508982035929,
+        "recall": 0.9745508982035929,
+        "f1_score": 0.9745508932035929,
+        "mmd_rbf": 0.06706361472606659,
+        "acf_similarity": 0.9870733514996102,
+        "psd_similarity": 0.9402144878321083,
+        "correlation_structure": 0.9360488402354527,
+        "stationarity_preservation": 1.0,
+        "bifurcation_consistency": 0.9972609877412978,
+        "overall_quality": 0.615832984103777
+      },
+      "training_history": {
+        "epoch_losses": [],
+        "val_metrics": []
+      },
+      "sample_statistics": {
+        "n_samples_generated": 100,
+        "sample_shape": [
+          100,
+          100,
+          1
+        ],
+        "sample_mean": -0.08189838379621506,
+        "sample_std": 0.29080313444137573,
+        "sample_min": -0.9513466954231262,
+        "sample_max": 0.9902825355529785
+      }
+    }
+  ]
+}

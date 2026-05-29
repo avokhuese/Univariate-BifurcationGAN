@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "Fungi",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_Fungi_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_Fungi_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:22:17.188877",
+  "final_metrics": {
+    "wasserstein_distance": 0.05698748893196467,
+    "jensen_shannon_divergence": 0.5566043966036637,
+    "ks_statistic": 0.25625,
+    "ks_pvalue": 1.0808039732524397e-92,
+    "fid_score": 2.1813402829679767,
+    "precision": 0.96875,
+    "recall": 0.96875,
+    "f1_score": 0.968749995,
+    "mmd_rbf": 0.0,
+    "acf_similarity": 0.9872479337216663,
+    "psd_similarity": 0.9771274814690233,
+    "correlation_structure": 0.6812880292418597,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9964107105706239,
+    "overall_quality": 0.6432284398227379
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": 0.1700744330883026,
+    "sample_std": 0.3466796875,
+    "sample_min": -0.21598418056964874,
+    "sample_max": 2.0307610034942627
+  }
+}

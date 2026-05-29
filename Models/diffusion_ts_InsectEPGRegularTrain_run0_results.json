@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "InsectEPGRegularTrain",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_InsectEPGRegularTrain_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_InsectEPGRegularTrain_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:37:31.269161",
+  "final_metrics": {
+    "wasserstein_distance": 0.09906541249564493,
+    "jensen_shannon_divergence": 8.60107796136821,
+    "ks_statistic": 0.2375,
+    "ks_pvalue": 3.956030581826782e-119,
+    "fid_score": 25.83978051378396,
+    "precision": 1.0,
+    "recall": 0.9583333333333334,
+    "f1_score": 0.9787233992575827,
+    "mmd_rbf": 0.05875222757458687,
+    "acf_similarity": 0.9529124361762458,
+    "psd_similarity": 0.8479591663966594,
+    "correlation_structure": 0.123618761385769,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9958490224672696,
+    "overall_quality": 0.66477831538384
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": 0.16156502068042755,
+    "sample_std": 0.4483228921890259,
+    "sample_min": -0.22651779651641846,
+    "sample_max": 0.7120832204818726
+  }
+}

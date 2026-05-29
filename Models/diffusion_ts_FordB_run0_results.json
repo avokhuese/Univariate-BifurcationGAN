@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "FordB",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_FordB_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_FordB_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:40:29.847009",
+  "final_metrics": {
+    "wasserstein_distance": 0.08441591550923958,
+    "jensen_shannon_divergence": 0.05132409263431922,
+    "ks_statistic": 0.1422,
+    "ks_pvalue": 1.7671765414641027e-44,
+    "fid_score": 0.3421816877965203,
+    "precision": 0.9745508982035929,
+    "recall": 0.9745508982035929,
+    "f1_score": 0.9745508932035929,
+    "mmd_rbf": 0.06706361472606659,
+    "acf_similarity": 0.9870733514996102,
+    "psd_similarity": 0.9402144878321083,
+    "correlation_structure": 0.9360488402354527,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9972609877412978,
+    "overall_quality": 0.615832984103777
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": -0.08189838379621506,
+    "sample_std": 0.29080313444137573,
+    "sample_min": -0.9513466954231262,
+    "sample_max": 0.9902825355529785
+  }
+}

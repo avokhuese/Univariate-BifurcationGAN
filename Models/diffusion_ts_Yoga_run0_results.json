@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "Yoga",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_Yoga_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_Yoga_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:28:57.545662",
+  "final_metrics": {
+    "wasserstein_distance": 0.10802323707637217,
+    "jensen_shannon_divergence": 0.3097661853770728,
+    "ks_statistic": 0.188,
+    "ks_pvalue": 1.2638836008062706e-77,
+    "fid_score": 0.7156078747758656,
+    "precision": 0.98989898989899,
+    "recall": 0.9656565656565657,
+    "f1_score": 0.9776275098183659,
+    "mmd_rbf": 0.06773395836353302,
+    "acf_similarity": 0.9978183790151126,
+    "psd_similarity": 0.8742282604943817,
+    "correlation_structure": 0.9795785865714877,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9964236868624178,
+    "overall_quality": 0.6334921099664448
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": 0.04078966751694679,
+    "sample_std": 0.4249795377254486,
+    "sample_min": -0.6428204774856567,
+    "sample_max": 0.7163001894950867
+  }
+}

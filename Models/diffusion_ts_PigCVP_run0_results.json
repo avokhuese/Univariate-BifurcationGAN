@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "PigCVP",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_PigCVP_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_PigCVP_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:33:30.512530",
+  "final_metrics": {
+    "wasserstein_distance": 0.601790390371821,
+    "jensen_shannon_divergence": 2.8236020684814047,
+    "ks_statistic": 0.42375,
+    "ks_pvalue": 0.0,
+    "fid_score": 6.520109689742017,
+    "precision": 0.9583333333333334,
+    "recall": 0.9583333333333334,
+    "f1_score": 0.9583333283333335,
+    "mmd_rbf": 0.35120153427124023,
+    "acf_similarity": 0.9967204312861814,
+    "psd_similarity": 0.9235716053295268,
+    "correlation_structure": 0.6503629303230531,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9992978131579239,
+    "overall_quality": 0.6956028944099468
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": -0.3911072313785553,
+    "sample_std": 0.8976448774337769,
+    "sample_min": -2.697690486907959,
+    "sample_max": 1.679410696029663
+  }
+}

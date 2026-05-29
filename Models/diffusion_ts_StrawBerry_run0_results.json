@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "StrawBerry",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_StrawBerry_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_StrawBerry_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:25:45.197333",
+  "final_metrics": {
+    "wasserstein_distance": 0.05533251864298921,
+    "jensen_shannon_divergence": 0.12699628955749848,
+    "ks_statistic": 0.1032,
+    "ks_pvalue": 1.365921975432331e-23,
+    "fid_score": 0.0,
+    "precision": 0.9733333333333334,
+    "recall": 0.9733333333333334,
+    "f1_score": 0.9733333283333334,
+    "mmd_rbf": 0.0,
+    "acf_similarity": 0.9982213081351543,
+    "psd_similarity": 0.9804688521733711,
+    "correlation_structure": 0.8810785974482591,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9999391221696226,
+    "overall_quality": 0.6004642003421748
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": -0.09316965937614441,
+    "sample_std": 0.39082249999046326,
+    "sample_min": -0.7712996006011963,
+    "sample_max": 0.4975416958332062
+  }
+}

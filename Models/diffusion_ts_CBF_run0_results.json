@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "CBF",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_CBF_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_CBF_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:21:38.812648",
+  "final_metrics": {
+    "wasserstein_distance": 0.06257168266372842,
+    "jensen_shannon_divergence": 0.11255131650041016,
+    "ks_statistic": 0.0944,
+    "ks_pvalue": 8.382200101279754e-20,
+    "fid_score": 0.3822914693582622,
+    "precision": 1.0,
+    "recall": 0.9785714285714285,
+    "f1_score": 0.9891696700908391,
+    "mmd_rbf": 0.0,
+    "acf_similarity": 0.9890200043732215,
+    "psd_similarity": 0.8713596995352125,
+    "correlation_structure": 0.9556298662750276,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9990279460922877,
+    "overall_quality": 0.614980025369785
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": -0.01318674348294735,
+    "sample_std": 0.3482745289802551,
+    "sample_min": -0.8703294992446899,
+    "sample_max": 0.9182597398757935
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "GestureMidAirD1",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_GestureMidAirD1_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_GestureMidAirD1_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:32:44.849386",
+  "final_metrics": {
+    "wasserstein_distance": 0.24705340475989662,
+    "jensen_shannon_divergence": 1.0182656563440884,
+    "ks_statistic": 0.3402,
+    "ks_pvalue": 8.374169093818991e-257,
+    "fid_score": 0.67212100779794,
+    "precision": 0.9807692307692307,
+    "recall": 0.9807692307692307,
+    "f1_score": 0.9807692257692308,
+    "mmd_rbf": 0.21215440332889557,
+    "acf_similarity": 0.9084787657157652,
+    "psd_similarity": 0.9572753122947616,
+    "correlation_structure": 0.8149244571079473,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9928443860349008,
+    "overall_quality": 0.6498672670636232
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": 0.34908798336982727,
+    "sample_std": 0.3510585129261017,
+    "sample_min": -0.4750484824180603,
+    "sample_max": 1.4932917356491089
+  }
+}

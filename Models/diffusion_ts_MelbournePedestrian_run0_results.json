@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "MelbournePedestrian",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_MelbournePedestrian_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_MelbournePedestrian_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:36:44.743234",
+  "final_metrics": {
+    "wasserstein_distance": 0.11650579296624908,
+    "jensen_shannon_divergence": 0.19618361013676494,
+    "ks_statistic": 0.1418,
+    "ks_pvalue": 3.130490567268594e-44,
+    "fid_score": 0.0,
+    "precision": 0.9634615384615385,
+    "recall": 0.9692307692307692,
+    "f1_score": 0.9663375380540056,
+    "mmd_rbf": 0.09192794561386108,
+    "acf_similarity": 0.9951169911342765,
+    "psd_similarity": 0.9856748854082555,
+    "correlation_structure": 0.7712210993204704,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9977314006283979,
+    "overall_quality": 0.6052961550734411
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": 0.2912216782569885,
+    "sample_std": 0.4194848835468292,
+    "sample_min": -0.16900520026683807,
+    "sample_max": 2.1347756385803223
+  }
+}

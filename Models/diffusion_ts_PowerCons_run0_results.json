@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "PowerCons",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_PowerCons_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_PowerCons_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:34:19.412721",
+  "final_metrics": {
+    "wasserstein_distance": 0.2705087099895146,
+    "jensen_shannon_divergence": 0.9879570646628401,
+    "ks_statistic": 0.251,
+    "ks_pvalue": 1.0871263985020604e-138,
+    "fid_score": 2.8649584771503136,
+    "precision": 0.9636363636363636,
+    "recall": 1.0,
+    "f1_score": 0.9814814764831962,
+    "mmd_rbf": 0.18594478070735931,
+    "acf_similarity": 0.9644593200300204,
+    "psd_similarity": 0.8436855129372729,
+    "correlation_structure": 0.5196931937464606,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9913943969168368,
+    "overall_quality": 0.6581314535860358
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": 0.30823931097984314,
+    "sample_std": 0.5870382785797119,
+    "sample_min": -0.7944897413253784,
+    "sample_max": 1.8018982410430908
+  }
+}

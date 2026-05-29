@@ -1,0 +1,41 @@
+{
+  "model_type": "diffusion_ts",
+  "dataset": "SemgHandMovement",
+  "run_idx": 0,
+  "checkpoint_file": "diffusion_ts_SemgHandMovement_best.pth",
+  "checkpoint_path": "./results_univariate/diffusion_ts_models/diffusion_ts_SemgHandMovement_best.pth",
+  "evaluation_timestamp": "2026-05-29T19:23:56.865938",
+  "final_metrics": {
+    "wasserstein_distance": 0.07089402026349202,
+    "jensen_shannon_divergence": 0.7611518917015959,
+    "ks_statistic": 0.1048,
+    "ks_pvalue": 2.5716406181296373e-24,
+    "fid_score": 0.0,
+    "precision": 0.9733333333333334,
+    "recall": 0.96,
+    "f1_score": 0.9666206846554103,
+    "mmd_rbf": 0.0,
+    "acf_similarity": 0.9986916580209858,
+    "psd_similarity": 0.9940870890978921,
+    "correlation_structure": 0.9085501007136995,
+    "stationarity_preservation": 1.0,
+    "bifurcation_consistency": 0.9987098346574066,
+    "overall_quality": 0.6155155412644238
+  },
+  "training_history": {
+    "epoch_losses": [],
+    "val_metrics": []
+  },
+  "sample_statistics": {
+    "n_samples_generated": 100,
+    "sample_shape": [
+      100,
+      100,
+      1
+    ],
+    "sample_mean": -0.10809144377708435,
+    "sample_std": 0.2784276604652405,
+    "sample_min": -0.6615557074546814,
+    "sample_max": 0.42323046922683716
+  }
+}

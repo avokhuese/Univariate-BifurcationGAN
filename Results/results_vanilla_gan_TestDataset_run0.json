@@ -1,0 +1,74 @@
+{
+  "model_type": "vanilla_gan",
+  "dataset": "TestDataset",
+  "run_idx": 0,
+  "training_time": 17.35485553741455,
+  "final_epoch": 4,
+  "final_metrics": {
+    "wasserstein_distance": 0.12996865442302732,
+    "jensen_shannon_divergence": 0.7003197290211277,
+    "ks_statistic": 0.1456,
+    "ks_pvalue": 1.2817820786493243e-46,
+    "fid_score": 1.8663307507198308,
+    "precision": 0.9533333333333334,
+    "recall": 0.9866666666666667,
+    "f1_score": 0.9697136261584064,
+    "mmd_rbf": 0.061775094424388555,
+    "acf_similarity": 0.0,
+    "psd_similarity": 0.34879846303500783,
+    "correlation_structure": 0.33763486748486765,
+    "stationarity_preservation": 0.5,
+    "bifurcation_consistency": 0.9984474451889435,
+    "overall_quality": 0.5564371032981928
+  },
+  "training_history": {
+    "epoch_losses": [
+      {
+        "g_loss": 0.6997623264789581,
+        "d_loss": 1.3787371873855592,
+        "total_g_loss": 0.0
+      },
+      {
+        "g_loss": 0.7656228423118592,
+        "d_loss": 1.3738662123680114,
+        "total_g_loss": 0.0
+      },
+      {
+        "g_loss": 0.8482848644256592,
+        "d_loss": 1.3386903285980225,
+        "total_g_loss": 0.0
+      },
+      {
+        "g_loss": 0.937353390455246,
+        "d_loss": 1.295729112625122,
+        "total_g_loss": 0.0
+      },
+      {
+        "g_loss": 1.0370891332626342,
+        "d_loss": 1.2530729651451111,
+        "total_g_loss": 0.0
+      }
+    ],
+    "val_metrics": [
+      {
+        "epoch": 0,
+        "wasserstein_distance": 0.11307447824577965,
+        "jensen_shannon_divergence": 0.6131133144746691,
+        "ks_statistic": 0.2072,
+        "ks_pvalue": 2.549589885835984e-94,
+        "fid_score": 1.944555520356651,
+        "precision": 0.99,
+        "recall": 0.98,
+        "f1_score": 0.984974614289469,
+        "mmd_rbf": 0.049006193589892326,
+        "acf_similarity": 0.0,
+        "psd_similarity": 0.09372921062375558,
+        "correlation_structure": 0.014851412058155582,
+        "stationarity_preservation": 0.5,
+        "bifurcation_consistency": 0.9955834223918106,
+        "overall_quality": 0.5357977505301772
+      }
+    ]
+  },
+  "model_path": "./saved_models_univariate/vanilla_gan_TestDataset_run0_final.pth"
+}
